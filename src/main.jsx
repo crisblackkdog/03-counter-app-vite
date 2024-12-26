@@ -3,11 +3,13 @@ import ReactDOM from "react-dom/client";
 import { CounterApp } from "./counterApp";
 
 import './style.css'
+import { FirstApp } from './First-app';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
         <React.StrictMode>
-            <CounterApp value = {1234} />
+            <FirstApp title="hola soy vegteta" />
+            
         </React.StrictMode>
         
 );
